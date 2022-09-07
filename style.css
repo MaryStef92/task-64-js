@@ -1,0 +1,83 @@
+#data {
+    position: relative;
+    top:30px;
+    left: 30px;
+    padding: 15px;
+    border: solid 2px black;
+    text-align: center;
+    width: 35%;
+    height: 450px;
+    font-size: 24px;
+    background-color: rgb(228, 220, 221);
+}
+
+.photo {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    border: solid 2px brown;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+
+.inform {
+    position: absolute;
+    top: 2%;
+    right:  4%;
+    padding: 10px;
+    width: 50%;
+    text-align: left;
+}
+
+#age {
+    border-bottom: solid 2px brown;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#eyecolor {
+    border-bottom: solid 2px brown;
+    width: 100%;
+}
+
+.nameData {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 87%;
+    text-align: left;
+    padding: 0 10px;
+}
+
+#name {
+    border-bottom: solid 2px brown;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#surName {
+    border-bottom: solid 2px brown;
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    bottom:10%;
+    left:35%;
+    border: solid 1.5px brown;
+    border-radius: 4px;
+    width: 35%;
+    height: 8%;
+    font-size: 20px;
+    background-color: rgb(199, 151, 125);
+}
+
+button:hover {
+    background-color: rgb(160, 114, 114);
+}
+
+img {
+    width: 140px ;
+    height: 150px; 
+}
